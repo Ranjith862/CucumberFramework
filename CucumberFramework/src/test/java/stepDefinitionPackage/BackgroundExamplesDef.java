@@ -15,9 +15,9 @@ public class BackgroundExamplesDef {
 		System.out.println("the student applied for MBA");
 	}
 
-	@When("the student has more than 60% in their UG")
-	public void the_student_has_more_than_60_in_their_ug() {
-		System.out.println("the student has more than 60% in their UG");
+	@When("the student has more than {int} percent in their UG")
+	public void the_student_has_more_than_percent_in_their_ug(Integer percentage) {
+		System.out.println("the student has more than" + percentage + "percent in their UG");
 	}
 
 	@Then("the student will get the MBA Sheet")

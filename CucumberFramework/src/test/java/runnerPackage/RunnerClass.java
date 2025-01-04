@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/FeatureFiles", 
 		glue = { "stepDefinitionPackage", "hooksPackage" }, 
 		dryRun = false, 
-		tags = "@BackgroundExamples", 
+		tags = "@DataTablesAndExamples", 
 		monochrome = true, 
 		plugin = { "html:report/webReport", "json:report/jsonreport.json" }
 )
